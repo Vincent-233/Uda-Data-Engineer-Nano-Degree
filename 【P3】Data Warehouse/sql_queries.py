@@ -172,7 +172,7 @@ insert into artists(artist_id,name,location,latitude,longitude)
 time_table_insert = ("""
 insert into time(start_time,hour,day,week,month,year,weekday)
     select distinct start_time,datepart(h,start_time),datepart(d,start_time),datepart(w,start_time),datepart(mon,start_time),datepart(y,start_time),datepart(dw,start_time)
-    from songplay a
+    from songplays a
 """)
 
 # QUERY LISTS
