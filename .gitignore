@@ -138,4 +138,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .vscode/settings.json
+【P4】Data Lake/*.png
 
